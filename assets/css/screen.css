@@ -27,10 +27,15 @@ h1, h2, h3, h4 {
   padding: 0 1em;
   list-style-type: circle;
 }
+
 .list-description{
   font-size: 0.875em; /* 14px/16px = 0.875em */
   margin-left: 0.625em; /* 10px/16px = 0.625em */
   list-style-type: square;
+}
+
+.project-course{
+  font-style: italic;
 }
 
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
