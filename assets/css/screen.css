@@ -23,6 +23,10 @@ h1, h2, h3, h4 {
   font-weight: bold;
 }
 
+li {
+  list-style-type: circle;
+}
+
 /*-----Layout (id selectors; width/height, position, flexbox, grid)-----*/
 #main-heading{
   font-size: 1.375em; /* 22px/16px = 1.375em */
@@ -48,8 +52,10 @@ h1, h2, h3, h4 {
   padding: 0.28125em 0 0 0;
 }
 
-.section-title{
-  font-size: 1.25em;
+.project.name{
+  padding: 0.375em 0 0.375em 0;
+  font-size: 1.125em;
+  color: #765FC2;
 }
 
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
