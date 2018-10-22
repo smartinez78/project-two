@@ -45,16 +45,15 @@ li {
 
 .list-description{
   font-size: 0.875em; /* 14px/16px = 0.875em */
-  margin-left: 0.625em; /* 10px/16px = 0.625em */
+  margin-left: 1.625em; /* 17px/16px = 1.625em */
   list-style-type: square;
 }
 
 .project-course{
   font-style: italic;
-  padding: 0.28125em 0 0 0;
 }
 
-.project.name{
+.project-name{
   padding: 0.375em 0 0.375em 0;
   font-size: 1.125em;
   color: #765FC2;
