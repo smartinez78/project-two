@@ -17,7 +17,7 @@ html {
 }
 
 h1, h2, h3, h4 {
-  padding: 1.222em 0 0 0; /* TRBL - top,right,bottom,left */
+  padding: 1em 0 0 0; /* TRBL - top,right,bottom,left */
   font-weight: bold;
 }
 /*-----Layout (id selectors; width/height, position, flexbox, grid)-----*/
@@ -36,6 +36,7 @@ h1, h2, h3, h4 {
 
 .project-course{
   font-style: italic;
+  padding: 0.28125em 0 0 0;
 }
 
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
