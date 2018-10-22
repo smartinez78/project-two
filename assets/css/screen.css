@@ -19,8 +19,10 @@ html {
 }
 
 h1, h2, h3, h4 {
-  padding: 1em 0 0 0; /* TRBL - top,right,bottom,left */
+  padding: 1em 0 0.25em 0; /* TRBL - top,right,bottom,left */
   font-weight: bold;
+  font-size: 1.5em;
+  color: #801A86;
 }
 
 li {
