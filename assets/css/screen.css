@@ -11,9 +11,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /*-----Base Styles (element selectors; color, typography)-----*/
 html {
   font-size: 1.125em;
+  font-family: Cambria, Helvetica, sans-serif;
+  background-color: #F3F2F7;
   line-height: 1.222em;
   padding: 0 1em;
-  background-image: url(22px-grid.png);
+  /*background-image: url(22px-grid.png);*/
 }
 
 h1, h2, h3, h4 {
