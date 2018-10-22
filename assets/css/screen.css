@@ -7,3 +7,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+/*-----Base Styles (element selectors; color, typography)-----*/
+
+/*-----Layout (id selectors; width/height, position, flexbox, grid)-----*/
+
+/*-----Module/Modular (class or descendent selectors; repeating specific styles)-----*/
+
+/*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
