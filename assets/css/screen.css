@@ -16,6 +16,10 @@ html {
   background-image: url(22px-grid.png);
 }
 
+h1, h2, h3, h4 {
+  padding: 1.222em 0 0 0; /* TRBL - top,right,bottom,left */
+  font-weight: bold;
+}
 /*-----Layout (id selectors; width/height, position, flexbox, grid)-----*/
 
 /*-----Module/Modular (class or descendent selectors; repeating specific styles)-----*/
