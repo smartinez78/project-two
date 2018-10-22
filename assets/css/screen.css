@@ -9,6 +9,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 /*-----Base Styles (element selectors; color, typography)-----*/
+html {
+  font-size: 1.125em;
+  line-height: 1.222em;
+  padding: 0 1em;
+  background-image: url(22px-grid.png);
+}
 
 /*-----Layout (id selectors; width/height, position, flexbox, grid)-----*/
 
