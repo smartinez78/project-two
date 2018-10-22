@@ -32,13 +32,15 @@ h1, h2, h3, h4 {
 }
 
 #sub-heading {
-  padding: 0;
+  padding: 0.375em 0 0 0;
   font-size: 1.125em;
   color: #765FC2;
 }
 
 /*-----Module/Modular (class or descendent selectors; repeating specific styles)-----*/
-.list{
+.list,
+.responsibilities,
+.activities {
   padding: 0 1em;
   list-style-type: circle;
 }
@@ -49,11 +51,13 @@ h1, h2, h3, h4 {
   list-style-type: square;
 }
 
-.project-course {
+.project-course,
+.time {
   font-style: italic;
 }
 
-.project-name {
+.project-name,
+.employer {
   padding: 0.375em 0 0.375em 0;
   font-size: 1.125em;
   color: #765FC2;
@@ -61,7 +65,7 @@ h1, h2, h3, h4 {
 
 .project-course {
   list-style-type: square;
-  margin-left: 1.0625em; 
+  margin-left: 1.0625em;
 }
 
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
