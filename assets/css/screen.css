@@ -26,11 +26,12 @@ h1, h2, h3, h4 {
 }
 
 /*-----Layout (id selectors; width/height, position, flexbox, grid)-----*/
-#main-heading{
+#main-heading {
   font-size: 1.875em; /* 22px/16px = 1.375em */
   color: #4E0250;
 }
-#sub-heading{
+
+#sub-heading {
   padding: 0;
   font-size: 1.125em;
   color: #765FC2;
@@ -42,20 +43,25 @@ h1, h2, h3, h4 {
   list-style-type: circle;
 }
 
-.list-description{
+.list-description {
   font-size: 0.875em; /* 14px/16px = 0.875em */
   margin-left: 1.0625em; /* 17px/16px = 1.0625em */
   list-style-type: square;
 }
 
-.project-course{
+.project-course {
   font-style: italic;
 }
 
-.project-name{
+.project-name {
   padding: 0.375em 0 0.375em 0;
   font-size: 1.125em;
   color: #765FC2;
+}
+
+.project-course {
+  list-style-type: square;
+  margin-left: 1.0625em; 
 }
 
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
