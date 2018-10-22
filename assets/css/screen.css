@@ -20,7 +20,14 @@ h1, h2, h3, h4 {
   padding: 1em 0 0 0; /* TRBL - top,right,bottom,left */
   font-weight: bold;
 }
+
 /*-----Layout (id selectors; width/height, position, flexbox, grid)-----*/
+#main-heading{
+  font-size: 1.375em; /* 22px/16px = 1.375em */
+}
+#sub-heading{
+  padding: 0;
+}
 
 /*-----Module/Modular (class or descendent selectors; repeating specific styles)-----*/
 .list{
@@ -37,6 +44,10 @@ h1, h2, h3, h4 {
 .project-course{
   font-style: italic;
   padding: 0.28125em 0 0 0;
+}
+
+.section-title{
+  font-size: 1.25em;
 }
 
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
