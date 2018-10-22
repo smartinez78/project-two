@@ -21,7 +21,7 @@ html {
 h1, h2, h3, h4 {
   padding: 1em 0 0.25em 0; /* TRBL - top,right,bottom,left */
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.375em; /* 22px/16px = 1.375em */
   color: #801A86;
 }
 
@@ -32,9 +32,11 @@ li {
 /*-----Layout (id selectors; width/height, position, flexbox, grid)-----*/
 #main-heading{
   font-size: 1.375em; /* 22px/16px = 1.375em */
+  color: #4E0250;
 }
 #sub-heading{
   padding: 0;
+  color: #765FC2;
 }
 
 /*-----Module/Modular (class or descendent selectors; repeating specific styles)-----*/
