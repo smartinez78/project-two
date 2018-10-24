@@ -44,23 +44,8 @@ li {
   list-style-type: circle;
 }
 
-li.divider {
-  list-style-type: none;
-}
-
-li.remove-list {
-  margin-left: 0;
-  list-style-type: none;
-}
-
-li.degree {
-  font-size: 0.875em;
-  margin-left: 0;
-  list-style-type: none;
-}
-
-li.job-title {
-  font-size: 0.875em;
+li.remove-list,
+li.school {
   margin-left: 0;
   list-style-type: none;
 }
@@ -79,7 +64,8 @@ li.job-title {
 
 /*-----Module/Modular (class or descendent selectors; repeating specific styles)-----*/
 
-.list-description {
+.list-description,
+.project-course, {
   margin-left: 2.125em;
   list-style-type: square;
 }
@@ -89,21 +75,11 @@ li.job-title {
   font-style: italic;
 }
 
+.employer,
 .project-name {
-  font-size: 1.125em;
-  color: #765FC2;
-  padding: 0.375em 0 0.375em 0;
-}
-
-.project-course {
-  margin-left: 1.0625em;
-  list-style-type: square;
-}
-
-.employer {
   font-size: 1;
   color: #765FC2;
-  padding: 0.025em 0 0 0;
+  padding: 0.375em 0 0 0;
   margin-left: 0;
   list-style-type: none;
 }
@@ -115,8 +91,23 @@ li.job-title {
   padding: 1em 0 0 0;
 }
 
+.degree,
+.job-title,
+.divider {
+  font-size: 0.875em;
+  margin-left: 1em;
+  list-style-type: square;
+}
+
 .nav-list li {
   list-style-type: none;
 }
 
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
+@media all and (max-width: 500px) {
+
+}
+
+@media all and (max-width: 800px) {
+
+}
