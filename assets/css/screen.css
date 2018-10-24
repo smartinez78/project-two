@@ -19,9 +19,9 @@ html {
 }
 
 h1, h2, h3, h4 {
-  padding: 1em 0 0 0; /* TRBL - top,right,bottom,left */
+  padding: 1.222em 0 0 0;
   font-weight: bold;
-  font-size: 1.375em; /* 22px/16px = 1.375em */
+  font-size: 1.375em;
   color: #801A86;
 }
 
@@ -40,8 +40,8 @@ p {
 }
 
 li {
+  margin-left: 1.0625em;
   list-style-type: circle;
-  margin-left: 1.0625em; /* 17px/16px = 1.0625em */
 }
 
 li.divider {
@@ -49,32 +49,32 @@ li.divider {
 }
 
 li.remove-list {
-  list-style-type: none;
   margin-left: 0;
+  list-style-type: none;
 }
 
 li.degree {
-  list-style-type: none;
-  margin-left: 0;
   font-size: 0.875em;
+  margin-left: 0;
+  list-style-type: none;
 }
 
 li.job-title {
-  list-style-type: none;
-  margin-left: 0;
   font-size: 0.875em;
+  margin-left: 0;
+  list-style-type: none;
 }
 
 /*-----Layout (id selectors; width/height, position, flexbox, grid)-----*/
 #main-heading {
-  font-size: 1.875em; /* 22px/16px = 1.375em */
+  font-size: 1.875em;
   color: #4E0250;
 }
 
 #sub-heading {
-  padding: 0.375em 0 0 0;
   font-size: 1.125em;
   color: #765FC2;
+  padding: 0.375em 0 0 0;
 }
 
 /*-----Module/Modular (class or descendent selectors; repeating specific styles)-----*/
@@ -90,29 +90,29 @@ li.job-title {
 }
 
 .project-name {
-  padding: 0.375em 0 0.375em 0;
   font-size: 1.125em;
   color: #765FC2;
+  padding: 0.375em 0 0.375em 0;
 }
 
 .project-course {
-  list-style-type: square;
   margin-left: 1.0625em;
+  list-style-type: square;
 }
 
 .employer {
-  padding: 0.025em 0 0 0;
   font-size: 1;
   color: #765FC2;
+  padding: 0.025em 0 0 0;
   margin-left: 0;
   list-style-type: none;
 }
 
 .section-title {
-  padding: 1em 0 0 0; /* TRBL - top,right,bottom,left */
+  font-size: 1.375em;
   font-weight: bold;
-  font-size: 1.375em; /* 22px/16px = 1.375em */
   color: #801A86;
+  padding: 1em 0 0 0;
 }
 
 .nav-list li {
