@@ -130,7 +130,7 @@ img {
   }
   .pictures {
     display: flex;
-    flex-flow: row:
+    flex-flow: row wrap:
   }
 }
 
