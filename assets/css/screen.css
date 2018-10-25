@@ -133,3 +133,12 @@ img {
     flex-flow: row:
   }
 }
+
+@media all and (min-width: 1000px) {
+  .pictures li {
+    width: 25%;
+  }
+  .pictures {
+    justify-content: space-evenly;
+  }
+}
