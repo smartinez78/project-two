@@ -111,19 +111,25 @@ img {
   margin-left: 0;
 }
 
+.pictures {
+  background: #222;
+  overflow: auto;
+  padding: 0.25em;
+}
+
+.pictures li {
+  box-sizing: border-box;
+  padding: 0.25em;
+}
+
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
-@media all and (max-width: 600px) {
+@media all and (min-width: 600px) {
   .pictures li {
+    float: left;
     width: 60%;
   }
   .pictures {
     display: flex;
-    justify-content: space-evenly;
-    flex: 1 0 auto;
-    flex-flow: row;
+    flex-flow: row:
   }
-}
-
-@media all and (max-width: 1200px) {
-
 }
