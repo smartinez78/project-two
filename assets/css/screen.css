@@ -45,9 +45,15 @@ li {
 }
 
 li.school,
-li.paragraph {
+li.paragraph
+{
   margin-left: 0;
   list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 /*-----Layout (id selectors; width/height, position, flexbox, grid)-----*/
@@ -99,15 +105,25 @@ li.paragraph {
   list-style-type: square;
 }
 
-.nav-list li {
+.nav-list li,
+.pictures li {
   list-style-type: none;
+  margin-left: 0;
 }
 
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
-@media all and (max-width: 500px) {
-
+@media all and (max-width: 600px) {
+  .pictures li {
+    width: 60%;
+  }
+  .pictures {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1 0 auto;
+    flex-flow: row;
+  }
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1200px) {
 
 }
