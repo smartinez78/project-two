@@ -123,6 +123,20 @@ img {
   padding: 0.25em;
 }
 
+.nav-list {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.nav-list li {
+  font-size: 1.125em;;
+  text-align: center;
+  margin: 0.25em;
+  padding: 0.25em 0.25em 0.25em 0.25em;
+  border: 2px solid black;
+}
+
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
 @media all and (min-width: 500px) {
   .pictures li {
