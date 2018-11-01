@@ -59,6 +59,7 @@ img {
 #main-heading {
   font-size: 1.875em;
   color: #4E0250;
+  line-height: 1.125em;
 }
 
 #sub-heading {
@@ -97,15 +98,15 @@ img {
 }
 
 .degree,
-.job-title,
-.divider {
+.job-title {
   font-size: 0.875em;
   margin-left: 1em;
   list-style-type: square;
 }
 
 .nav-list li,
-.pictures li {
+.pictures li,
+.divider {
   list-style-type: none;
   margin-left: 0;
 }
