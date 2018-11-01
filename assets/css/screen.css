@@ -9,7 +9,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 /*-----Base Styles (element selectors; color, typography)-----*/
-
 html {
   font-size: 1.125em;
   font-family: Cambria, Helvetica, sans-serif;
@@ -66,7 +65,7 @@ img {
 #sub-heading {
   font-size: 1.125em;
   color: #765FC2;
-  padding: 0 0 0 0;
+  padding: 0.375em 0 0 0;
 }
 
 /*-----Module/Modular (class or descendent selectors; repeating specific styles)-----*/
@@ -99,15 +98,15 @@ img {
 }
 
 .degree,
-.job-title {
+.job-title,
+.divider {
   font-size: 0.875em;
   margin-left: 1em;
   list-style-type: square;
 }
 
 .nav-list li,
-.pictures li,
-.divider {
+.pictures li {
   list-style-type: none;
   margin-left: 0;
 }
@@ -130,7 +129,7 @@ img {
 }
 
 .nav-list li {
-  font-size: 1.125em;;
+  font-size: 1.125em;
   text-align: center;
   margin: 0.25em;
   padding: 0.25em 0.25em 0.25em 0.25em;
@@ -146,7 +145,7 @@ img {
 
   .pictures {
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
   }
 
   .nav-list {
@@ -172,10 +171,10 @@ img {
   .pictures {
     justify-content: space-evenly;
   }
-
+  
   p {
-    display: flex;
-    width: 75%;
-    padding: 0 0 0.25em 0;
-  }
+   display: flex;
+   width: 75%;
+   padding: 0 0 0.25em 0;
+ }
 }
