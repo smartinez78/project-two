@@ -15,6 +15,7 @@ html {
   background-color: #F3F2F7;
   line-height: 1.222em;
   padding: 0 1em; /* 16px = 1em */
+  text-decoration: none;
   /*background-image: url(22px-grid.png);*/
 }
 
@@ -33,10 +34,6 @@ h3, h4 {
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   padding: 0 0 0 0;
   color: black;
-}
-
-p {
-  padding: 0.25em 0 0 0; /* 4px / 16px = 0.25em */
 }
 
 li {
@@ -105,7 +102,8 @@ img {
 
 .nav-list li,
 .pictures li,
-.divider {
+.divider,
+.project-description {
   list-style-type: none;
   margin-left: 0;
 }
