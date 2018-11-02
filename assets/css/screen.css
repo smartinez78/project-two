@@ -10,37 +10,37 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /*-----Base Styles (element selectors; color, typography)-----*/
 html {
-  font-size: 1.125em;
+  font-size: 1.125em; /* 18px / 16px = 1.125em */
   font-family: Cambria, Helvetica, sans-serif;
   background-color: #F3F2F7;
   line-height: 1.222em;
-  padding: 0 1em;
+  padding: 0 1em; /* 16px = 1em */
   /*background-image: url(22px-grid.png);*/
 }
 
 h1, h2, h3, h4 {
   padding: 0 0 0 0;
   font-weight: bold;
-  font-size: 1.375em;
+  font-size: 1.375em; /* 22px / 16px = 1.375em */
   color: #801A86;
 }
 
 h2 {
-  padding: 1em 0 0.025em 0;
+  padding: 1em 0 0.0625em 0; /* 16px = 1em and 2px / 16px = 0.0625em */
 }
 
 h3, h4 {
-  font-size: 1.125em;
+  font-size: 1.125em; /* 18px / 16px = 1.125em */
   padding: 0 0 0 0;
   color: black;
 }
 
 p {
-  padding: 0.25em 0 0 0;
+  padding: 0.25em 0 0 0; /* 4px / 16px = 0.25em */
 }
 
 li {
-  margin-left: 1.0625em;
+  margin-left: 1.0625em; /* 17px / 16px = 1.0625em */
   list-style-type: circle;
 }
 
@@ -57,22 +57,21 @@ img {
 
 /*-----Layout (id selectors; width/height, position, flexbox, grid)-----*/
 #main-heading {
-  font-size: 1.875em;
+  font-size: 1.875em; /* 30px / 16px = 1.875em */
   color: #4E0250;
-  line-height: 1.125em;
+  line-height: 1.125em; /* 18px / 16px = 1.125em */
 }
 
 #sub-heading {
-  font-size: 1.125em;
+  font-size: 1.125em; /* 18px / 16px = 1.125em */
   color: #765FC2;
-  padding: 0.375em 0 0 0;
+  padding: 0.375em 0 0 0; /* 6px / 16px */
 }
 
 /*-----Module/Modular (class or descendent selectors; repeating specific styles)-----*/
-
 .list-description,
 .project-course {
-  margin-left: 2.125em;
+  margin-left: 2.125em; /* 34px / 16px = 2.125em */
   list-style-type: square;
 }
 
@@ -85,7 +84,7 @@ img {
 .project-name {
   font-size: 1;
   color: #765FC2;
-  padding: 0.375em 0 0 0;
+  padding: 0.375em 0 0 0; /* 6px / 16px */
   margin-left: 0;
   list-style-type: none;
 }
@@ -94,14 +93,14 @@ img {
   font-size: 1.375em;
   font-weight: bold;
   color: #801A86;
-  padding: 1em 0 0 0;
+  padding: 1em 0 0 0; /* 16px = 1em */
 }
 
 .degree,
 .job-title,
 .divider {
-  font-size: 0.875em;
-  margin-left: 1em;
+  font-size: 0.875em; /* 4px / 16px = 0.25em */
+  margin-left: 1em; /* 16px = 1em */
   list-style-type: square;
 }
 
@@ -114,12 +113,12 @@ img {
 .pictures {
   background: #222;
   overflow: auto;
-  padding: 0.25em;
+  padding: 0.25em; /* 4px / 16px = 0.25em */
 }
 
 .pictures li {
   box-sizing: border-box;
-  padding: 0.25em;
+  padding: 0.25em; /* 4px / 16px = 0.25em */
 }
 
 .nav-list {
@@ -129,11 +128,11 @@ img {
 }
 
 .nav-list li {
-  font-size: 1.125em;
+  font-size: 1.125em; /* 18px / 16px = 1.125em */
   text-align: center;
-  margin: 0.25em;
-  padding: 0.25em 0.25em 0.25em 0.25em;
-  border: 2px solid black;
+  margin: 0.25em; /* 4px / 16px = 0.25em */
+  padding: 0.25em 0.25em 0.25em 0.25em; /* 4px / 16px = 0.25em */
+  border: 0.125em solid black; /* 2px / 16px = 0.125em */
 }
 
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
@@ -158,8 +157,8 @@ img {
     font-size: 1.375em;
     text-align: center;
     margin-left: 1em;
-    padding: 0.25em 0.25em 0.25em 0.25em;
-    border: 2px solid black;
+    padding: 0.25em 0.25em 0.25em 0.25em; /* 4px / 16px = 0.25em */
+    border: 0.125em solid black; /* 2px / 16px = 0.125em */
   }
 }
 
@@ -171,10 +170,10 @@ img {
   .pictures {
     justify-content: space-evenly;
   }
-  
+
   p {
    display: flex;
    width: 75%;
-   padding: 0 0 0.25em 0;
+   padding: 0 0 0.25em 0; /* 4px / 16px = 0.25em */
  }
 }
