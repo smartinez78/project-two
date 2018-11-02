@@ -97,15 +97,15 @@ img {
 }
 
 .degree,
-.job-title,
-.divider {
+.job-title {
   font-size: 0.875em; /* 4px / 16px = 0.25em */
   margin-left: 1em; /* 16px = 1em */
   list-style-type: square;
 }
 
 .nav-list li,
-.pictures li {
+.pictures li,
+.divider {
   list-style-type: none;
   margin-left: 0;
 }
