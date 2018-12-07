@@ -138,8 +138,7 @@ li.divider h3 {
   justify-content: center;
 }
 
-.nav-list a,
-#navigation h2 a {
+.nav-list a {
   background: grey;
   color: white;
   border: 0.125em solid white; /* 2px / 16px = 0.125em */
