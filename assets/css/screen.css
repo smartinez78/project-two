@@ -65,9 +65,10 @@ img {
   padding: 0 0 0.625em 0; /* 10px / 16px = 0.625em */
 }
 
-#contact-information li {
-  list-style-type: none;
-  margin-left: 0;
+.nav-list {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
 
 /*-----Module/Modular (class or descendent selectors; repeating specific styles)-----*/
@@ -132,16 +133,10 @@ li.divider h3 {
   padding: 0.25em; /* 4px / 16px = 0.25em */
 }
 
-.nav-list {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-}
-
 .nav-list a {
   display: block;
   font-size: 1.125em;
-  background: #660066;
+  background: #765FC2;
   color: white;
   border: 0.125em solid white; /* 2px / 16px = 0.125em */
   padding: 1em;
@@ -156,13 +151,19 @@ li.divider h3 {
   text-align: left;
 }
 
-.project-button:hover {
-    background: #660066;
+.project-content {
+  display: none;
+  overflow: hidden;
 }
 
-.project-content {
-    display: none;
-    overflow: hidden;
+.project-button:hover,
+a:hover {
+  background: #660066;
+}
+
+#contact-information li {
+  list-style-type: none;
+  margin-left: 0;
 }
 
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
