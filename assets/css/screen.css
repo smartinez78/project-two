@@ -13,7 +13,7 @@ html {
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   font-family: Cambria, Georgia, Helvetica, sans-serif;
   background-color: #F3F2F7;
-  line-height: 1.222em;
+  line-height: 1.5em; /* 24px / 16px */
   padding: 0 1em; /* 16px = 1em */
   /*background-image: url(22px-grid.png);*/
 }
@@ -65,6 +65,11 @@ img {
   padding: 0 0 0.625em 0; /* 10px / 16px = 0.625em */
 }
 
+#contact-information li {
+  list-style-type: none;
+  margin-left: 0;
+}
+
 /*-----Module/Modular (class or descendent selectors; repeating specific styles)-----*/
 .list-description,
 .project-course {
@@ -79,15 +84,19 @@ img {
 
 .employer,
 .project-name,
-.sub-heading {
+.school,
+.sub-heading,
+li.divider h3 {
   color: #765FC2;
   margin-left: 0;
   list-style-type: none;
   padding: 0 0 0 0;
 }
 
-.workplace {
-  padding: 0.625em 0 0 0; /* 6px / 16px */
+.workplace,
+.institution,
+.ind-project {
+  padding: 0 0 0.625em 0; /* 6px / 16px */
 }
 
 .section-title {
@@ -123,18 +132,20 @@ img {
   padding: 0.25em; /* 4px / 16px = 0.25em */
 }
 
-.nav-list {
+#navigation {
   display: flex;
   flex-flow: column;
   justify-content: center;
 }
 
-.nav-list li {
-  font-size: 1.125em; /* 18px / 16px = 1.125em */
-  text-align: center;
-  margin: 0.25em; /* 4px / 16px = 0.25em */
-  padding: 0.25em 0.25em 0.25em 0.25em; /* 4px / 16px = 0.25em */
-  border: 0.125em solid black; /* 2px / 16px = 0.125em */
+.nav-list a,
+#navigation h2 a {
+  background: grey;
+  color: white;
+  border: 0.125em solid white; /* 2px / 16px = 0.125em */
+  display: block;
+  margin-bottom: 0.25em;
+  padding: 1em;
 }
 
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
@@ -154,14 +165,6 @@ img {
     flex-flow: row;
     justify-content: flex-end;
   }
-
-  .nav-list li {
-    font-size: 1.375em;
-    text-align: center;
-    margin-left: 1em;
-    padding: 0.25em 0.25em 0.25em 0.25em; /* 4px / 16px = 0.25em */
-    border: 0.125em solid black; /* 2px / 16px = 0.125em */
-  }
 }
 
 @media all and (min-width: 1000px) {
@@ -177,5 +180,10 @@ img {
   p {
     display: flex;
     width: 75%;
+  }
+
+  .content {
+   display: grid;
+   grid-template-columns: auto auto;
   }
 }
