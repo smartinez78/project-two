@@ -145,7 +145,16 @@ li.divider h3 {
   color: white;
   border: 0.125em solid white; /* 2px / 16px = 0.125em */
   margin-bottom: 0.25em; /* 4px / 16px = 0.25em */
+
+}
+
+.project-button {
+  font-size: 0.85em;
+  background: #660066;
+  color: white;
+  width: 50vw;
   padding: 1em; /* 16px / 16px = 1em */
+  text-align: left;
 }
 
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
