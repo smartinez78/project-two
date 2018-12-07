@@ -57,7 +57,7 @@ img {
 /*-----Layout (id selectors; width/height, position, flexbox, grid)-----*/
 #main-heading {
   font-size: 2.25em; /* 36px / 16px = 2.25em */
-  color: #4E0250;
+  color: #531056;
   line-height: 1.125em; /* 18px / 16px = 1.125em */
 }
 
@@ -132,22 +132,24 @@ li.divider h3 {
   padding: 0.25em; /* 4px / 16px = 0.25em */
 }
 
-#navigation {
+.nav-list {
   display: flex;
   flex-flow: column;
   justify-content: center;
 }
 
 .nav-list a {
-  background: grey;
+  display: block;
+  font-size: 1.125em;
+  background: #660066;
   color: white;
   border: 0.125em solid white; /* 2px / 16px = 0.125em */
-  display: block;
-  margin-bottom: 0.25em;
-  padding: 1em;
+  margin-bottom: 0.25em; /* 4px / 16px = 0.25em */
+  padding: 1em; /* 16px / 16px = 1em */
 }
 
 /*-----State (repeat the structure above; media queries, JavaScript-dependent styles)-----*/
+/*media query for smaller viewports*/
 @media all and (min-width: 500px) {
   .pictures li {
     float: left;
@@ -165,7 +167,7 @@ li.divider h3 {
     justify-content: flex-end;
   }
 }
-
+/*media query for larger viewports*/
 @media all and (min-width: 1000px) {
   .pictures li {
     width: 25%;
